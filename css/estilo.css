@@ -1,0 +1,148 @@
+/*import da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200&display=swap');
+
+/*Zera as configurações defaults dos browsers*/
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lobster', cursive;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+/*Configura o body para o flex-box*/
+
+body {
+
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgb(33, 33, 33);
+
+}
+
+/*Div container:  flex-box*/
+
+.container {
+	
+	background: rgb(13, 13, 13);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+	box-shadow: 10px 15px 30px  rgba(100, 100, 100, 0.5);
+	
+}
+
+/*Configura o lado esquerdo com texto e imagem*/
+
+.left {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 2rem 0 2rem 2rem;
+
+}
+
+.titulo1 {
+	
+	width: 100%;
+	height: 30%;
+	color: white;
+	font-size: 16px;
+	text-shadow: 15px 10px 15px rgba(100, 100, 100, 1.0);
+
+}
+
+.img {
+
+	width: 100%;
+	height: 70%;
+
+}
+
+/*Configura o lado esquerdo com o formulário de login*/
+
+.right {
+
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.card {
+
+	width: 80%;
+	height: 100%;
+	background: rgb(37, 37, 37) ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	border-radius: 10px;
+	
+}
+
+/*Configura o formulário*/
+
+.titulo2 {
+
+	color: white;
+	text-align: center;
+	text-shadow: 10px 10px 10px rgb(0, 0, 0);
+	letter-spacing: 0.1em;
+	
+	
+}
+
+.inputs {
+
+	display: flex;
+	flex-direction: column;
+	color: white;
+	
+}
+
+.inputs label{
+
+	margin: 15px 0;
+	font-size: 16px;
+	text-decoration: underline;
+	letter-spacing: 0.1em;
+
+}
+
+.inputs input {
+
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 1px solid white;
+	width: 19em;
+	color: white;
+
+}
+
+.btn {
+
+	display: block;
+	margin-top: 30px;
+	border-radius: 10px;
+	border: none;
+	width: 80%;	
+}
+
+.btn:hover {
+	background-color: rgb(204, 255, 204);
+}
